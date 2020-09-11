@@ -95,6 +95,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
+                    href="https://socialapp-75994.web.app/signup"
                   >
                     View Demo
                   </Button>
@@ -103,6 +104,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginRight: "auto" }}
+                    href="https://github.com/abhinav5481/socialape.git"
                   >
                     View SourceCode
                   </Button>
@@ -157,7 +159,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
-                    href="https://www.google.com/"
+                    href="https://chat-app-39de2.web.app/dashboard"
                   >
                     View Demo
                   </Button>
@@ -166,6 +168,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginRight: "auto" }}
+                    href="https://github.com/abhinav5481/web-chat-application.git"
                   >
                     view Sourcecode
                   </Button>
@@ -230,6 +233,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
+                    href="https://restaurante-de-confusion.web.app/home"
                   >
                     View Demo
                   </Button>
@@ -238,6 +242,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginRight: "auto" }}
+                    href="https://github.com/abhinav5481/Restaurante-de-confusion.git"
                   >
                     View Sourcecode
                   </Button>
@@ -262,8 +267,7 @@ class ProjectComponent extends Component {
                       component="p"
                       align="center"
                     >
-                      &nbsp; &nbsp; &nbsp; &nbsp; A budget management app for
-                      students.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                      A simple budget management app for students. User can add, edit & delete items to their expenditure list and track the total expenditure.
                     </Typography>
                     <br />
                     <Typography
@@ -290,6 +294,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
+                    href="https://budget-calculator-19e38.web.app/"
                   >
                     View Demo
                   </Button>
@@ -298,6 +303,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginRight: "auto" }}
+                    href="https://github.com/abhinav5481/budget-calculator.git"
                   >
                     view Sourcecode
                   </Button>
