@@ -19,11 +19,12 @@ const styles = (theme) => ({
     backgroundColor: "transparent",
     position: "relative",
     "boxShadow": "none",
-    margin: "0px"
+    
 
   },
   footerIcons:{
-      cursor: "pointer"
+      cursor: "pointer",
+     
   }
 });
 
@@ -34,9 +35,9 @@ class FooterComponent extends Component {
 
           
           <AppBar  position="fixed" className={classes.root}>
-          <Toolbar style={{ marginLeft: "auto", marginRight: "auto", justifyContent:"space-between", width:"15vw"}} className="nav-container">
-            <GitHubIcon className={classes.footerIcons} fontSize="large" color="primary" onClick={event =>  window.location.href='https://github.com/abhinav5481'} />
-            <MailOutlineIcon className={classes.footerIcons} fontSize="large" color="primary" onClick={event =>  window.location.href='mailto:agrawal.abhinav98@gmail.com'} />
+          <Toolbar style={{ marginLeft: "auto", marginRight: "auto", justifyContent:"space-between"}} className="nav-container">
+            <GitHubIcon className={classes.footerIcons} style={{ marginRight: "20px"}} fontSize="large" color="primary" target="_blank" onClick={event => window.location.href='https://github.com/abhinav5481'} />
+            <MailOutlineIcon className={classes.footerIcons} style={{ marginRight: "20px"}} fontSize="large" color="primary" onClick={event =>  window.location.href='mailto:agrawal.abhinav98@gmail.com'} />
             <LinkedInIcon className={classes.footerIcons} fontSize="large" color="primary" onClick={event =>  window.location.href='https://www.linkedin.com/in/abhinav98/'} ></LinkedInIcon>
           </Toolbar>
         </AppBar>

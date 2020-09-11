@@ -109,7 +109,7 @@ class ContactComponent extends Component {
           width: "100%"
         }}
       >
-        <Grid item md={8}>
+        <Grid item xs={8}>
           <Typography
             className={classes.header}
             color="primary"

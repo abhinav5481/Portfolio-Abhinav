@@ -10,39 +10,46 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import profieImg from "./assets/profile.jpg";
+import Hidden from '@material-ui/core/Hidden';
+import MediaQuery, { useMediaQuery } from "react-responsive";
 
 //bit stuff
 import OrbitSpinner from "@bit/bondz.react-epic-spinners.orbit-spinner";
 
 const styles = (theme) => ({
   root: {
-    maxWidth: 345,
-    minHeight: 275,
-  },
-  //   media: {
-  //     // height: 300,
-  //     objectFit: "cover"
-  //   },
+    width: 345,
+    height: 275
+    
+  }
 });
 
 class ProjectComponent extends Component {
   render() {
     const { classes } = this.props;
     return (
+      <>
       <Grid
         container
-        spacing={2}
+        spacing={4}
+        xs={12}
+        alignItems="center"
         style={{
           marginLeft: "auto",
           marginRight: "auto",
-          height: "100%",
           alignItems: "center",
+          paddingTop: "20px",
+          // border: "1px solid red",
+          // paddingBottom:"20px"
+          // width: "100%"
+          
+      
+
         }}
       >
-        <Grid item xs={12}>
-          <Grid container spacing={6}>
-            <Grid item>
-              <Card className={classes.root}>
+       
+            <Grid item >
+              <Card align="center" className={classes.root}>
                 <CardActionArea>
                   <CardContent>
                     <Typography
@@ -55,7 +62,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -74,7 +81,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -117,7 +124,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -135,7 +142,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -150,6 +157,7 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
+                    href="https://www.google.com/"
                   >
                     View Demo
                   </Button>
@@ -165,7 +173,18 @@ class ProjectComponent extends Component {
               </Card>
             </Grid>
 
-            <Grid item>
+          </Grid>
+
+           <Grid container
+        spacing={4}
+        xs={12}
+        alignItems="center"
+        style={{
+          marginLeft: "auto",
+          marginRight: "auto",
+          alignItems: "center",
+          paddingTop: "20px"}} >
+           <Grid item>
               <Card className={classes.root}>
                 <CardActionArea>
                   <CardContent>
@@ -179,7 +198,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -197,7 +216,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -225,9 +244,6 @@ class ProjectComponent extends Component {
                 </CardActions>
               </Card>
             </Grid>
-          </Grid>
-
-          <Grid container spacing={6}>
             <Grid item>
               <Card className={classes.root}>
                 <CardActionArea>
@@ -242,7 +258,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -260,7 +276,7 @@ class ProjectComponent extends Component {
                     </Typography>
                     <Typography
                       variant="body2"
-                      color="textSecondary"
+                      color="grey"
                       component="p"
                       align="center"
                     >
@@ -289,24 +305,40 @@ class ProjectComponent extends Component {
               </Card>
             </Grid>
 
+            {/* <Hidden only={['xs', 'sm','md',"lg"]}>
             <Grid item>
-              <OrbitSpinner
+            <Card align="center" className={classes.root}  style={{backgroundColor: "transparent"}}>
+                <CardActionArea>
+                  <CardContent>
+                  <OrbitSpinner
                 color="#33c9dc"
                 size="200"
-                style={{ marginLeft: "70px" }}
+               
               />
+                    </CardContent>
+                    </CardActionArea>
+                    </Card>
+              
             </Grid>
 
-            <Grid item>
-              <OrbitSpinner
+            <Grid item >
+            <Card align="center" className={classes.root} style={{backgroundColor: "transparent"}}>
+                <CardActionArea>
+                  <CardContent>
+                  <OrbitSpinner
                 color="#33c9dc"
                 size="200"
-                style={{ marginLeft: "160px" }}
+                
               />
+                    </CardContent>
+                    </CardActionArea>
+                    </Card>
+              
             </Grid>
-          </Grid>
-        </Grid>
+            </Hidden> */}
+            
       </Grid>
+      </>
     );
   }
 }

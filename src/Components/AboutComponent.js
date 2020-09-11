@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 const styles = (theme) => ({
   header: {
     fontFamily: "Sans",
+    paddingBottom: "30px"
   },
   paragraph: {
     color: "#ffffff",
@@ -27,7 +28,7 @@ class AboutComponent extends Component {
           alignItems: "center",
         }}
       >
-        <Grid item md={10}>
+        <Grid item xs={10}>
           {/* <Typography
             className={classes.header}
             color="primary"
@@ -36,6 +37,14 @@ class AboutComponent extends Component {
           >
             Abhinav Agrawal
           </Typography> */}
+           <Typography
+            className={classes.header}
+            color="primary"
+            variant="h3"
+            component="h3"
+          >
+           About me
+          </Typography>
           <Typography
             className={classes.paragraph}
             variant="subtitle"
