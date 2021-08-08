@@ -66,9 +66,10 @@ class ProjectComponent extends Component {
                       component="p"
                       align="center"
                     >
-                      Social media platform. A place where anyone can register,
+                      {/* Social media platform. A place where anyone can register,
                       create profile, write blog posts, comment & like other
-                      blog posts and much more!
+                      blog posts and much more! */}
+                      A Social media platform where user can register, write blog posts, upvote (like) & write comments on others blog posts.
                     </Typography>
                     <br />
                     <Typography
@@ -130,8 +131,9 @@ class ProjectComponent extends Component {
                       component="p"
                       align="center"
                     >
-                      A simple one to one live chat application where user can
-                      register and send messages.
+                     Real time chat application, developed for
+instant messaging. User can create account,
+track notifications & send messages.
                     </Typography>
                     <br />
                     <Typography
@@ -259,7 +261,8 @@ class ProjectComponent extends Component {
                       variant="h5"
                       component="h2"
                     >
-                      Budget Management App
+                      {/* Budget Management App */}
+                      Loan Management System
                     </Typography>
                     <Typography
                       variant="body2"
@@ -267,7 +270,9 @@ class ProjectComponent extends Component {
                       component="p"
                       align="center"
                     >
-                      A simple budget management app for students. User can add, edit & delete items to their expenditure list and track the total expenditure.
+                      {/* A simple budget management app for students. User can add, edit & delete items to their expenditure list and track the total expenditure. */}
+                      Developed a Node.js based back-end solution
+for a fully featured Loan Management System.
                     </Typography>
                     <br />
                     <Typography
@@ -284,7 +289,9 @@ class ProjectComponent extends Component {
                       component="p"
                       align="center"
                     >
-                      React.js
+                     
+Express.js, Node.js, Firebase,
+Postman.
                     </Typography>
                   </CardContent>
                 </CardActionArea>
@@ -294,7 +301,8 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginLeft: "auto" }}
-                    href="https://budget-calculator-19e38.web.app/"
+                    // href="https://budget-calculator-19e38.web.app/"
+                    href="https://github.com/abhinav5481/loan-management-system"
                   >
                     View Demo
                   </Button>
@@ -303,7 +311,8 @@ class ProjectComponent extends Component {
                     color="primary"
                     variant="outlined"
                     style={{ marginRight: "auto" }}
-                    href="https://github.com/abhinav5481/budget-calculator.git"
+                    // href="https://github.com/abhinav5481/budget-calculator.git"
+                    href = "https://github.com/abhinav5481/loan-management-system"
                   >
                     view Sourcecode
                   </Button>

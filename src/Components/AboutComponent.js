@@ -51,7 +51,7 @@ class AboutComponent extends Component {
             component="h1"
             style={{ fontSize: "3vh", fontWeight: "normal" }}
           >
-            Hello! I'm Abhinav, a 22 year old, self-taught full stack developer.<br/>
+            {/* Hello! I'm Abhinav, a 22 year old, self-taught full stack developer.<br/>
 I graduated from National Institute of Technology, Raipur in 2020, majoring in Electrical Engineering. Despite being 
 from a non-computer science background, I got into coding/development because computers have always fascinated me.
  Seeing code getting converted to things we use regularly, like Facebook or Amazon, was no less than magic to me and that's where my quest to invent began!.
@@ -60,7 +60,18 @@ I believe in being genuine and nurturing. My abilities extend to critical thinki
  I am always interested in learning, growing, and contributing to awesome projects!
  <br />
  <br />
- When not in front of a computer, you will probably find me playing guitar, relishing music 🎵🎧.
+ When not in front of a computer, you will probably find me playing guitar, relishing music 🎵🎧. */}
+
+Hi, I am Abhinav Agrawal.<br></br> I have completed my graduation from National Institute of Technology, Raipur (NITRR 2016-2020).
+
+I am currently working as Senior Software Engineer at Capgemini Technology Services India Ltd.
+
+I have worked around a diverse range of technologies ranging from the full-stack development of some web based applications on MERN stack to developing some Big Data Solutions using Big data technologies such as Hive, Pyspark & Talend, alongside being pretty active in participating in events that encourage me to learn. I'm always willing to participate in something that helps me learn and grow.
+
+I also have strong foundations of data structures, algorithms and coding fundamentals which help me understand and problems.
+I primarily use Java for practising Data Structures and Algorithms and Javascript for Fullstack Development.
+<br /><br />
+So far I have had a journey full of learning, and I'm looking forward to learn and grow!
 
           </Typography>
           <br />
@@ -69,7 +80,7 @@ I believe in being genuine and nurturing. My abilities extend to critical thinki
                     size="large"
                     color="primary"
                     variant="outlined"
-                    style={{ marginLeft: "auto" }} href="https://drive.google.com/file/d/1FpkT3m2huW_It4efoWbZu7QKD_47LuFz/view?usp=sharing"
+                    style={{ marginLeft: "auto" }} href="https://drive.google.com/file/d/1EKGngG3t1J_hhHXAWogEYrSGWfw1mZMM/view?usp=sharing"
                   >
                     View My Resume
                   </Button>
