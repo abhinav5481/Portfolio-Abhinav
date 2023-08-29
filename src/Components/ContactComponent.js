@@ -6,7 +6,7 @@ import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Card from "@material-ui/core/Card";
 import axios from "axios";
-import OrbitSpinner from "@bit/bondz.react-epic-spinners.orbit-spinner";
+import {OrbitSpinner} from "react-epic-spinners";
 
 const styles = (theme) => ({
     header: {

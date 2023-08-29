@@ -14,7 +14,7 @@ import Hidden from '@material-ui/core/Hidden';
 import MediaQuery, { useMediaQuery } from "react-responsive";
 
 //bit stuff
-import OrbitSpinner from "@bit/bondz.react-epic-spinners.orbit-spinner";
+import {OrbitSpinner} from "react-epic-spinners";
 
 const styles = (theme) => ({
   root: {

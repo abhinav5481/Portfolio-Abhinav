@@ -62,7 +62,7 @@ I believe in being genuine and nurturing. My abilities extend to critical thinki
  <br />
  When not in front of a computer, you will probably find me playing guitar, relishing music 🎵🎧. */}
 
-Hi, I am Abhinav Agrawal.<br></br> I have completed my graduation from National Institute of Technology, Raipur (NITRR 2016-2020).
+{/* Hi, I am Abhinav Agrawal.<br></br> I have completed my graduation from National Institute of Technology, Raipur (NITRR 2016-2020).
 
 I am currently working as Senior Software Engineer at Capgemini Technology Services India Ltd.
 
@@ -71,7 +71,13 @@ I have worked around a diverse range of technologies ranging from the full-stack
 I also have strong foundations of data structures, algorithms and coding fundamentals which help me understand and problems.
 I primarily use Java for practising Data Structures and Algorithms and Javascript for Fullstack Development.
 <br /><br />
-So far I have had a journey full of learning, and I'm looking forward to learn and grow!
+So far I have had a journey full of learning, and I'm looking forward to learn and grow! */}
+Hello! I'm Abhinav, self-taught full stack developer. <br/>
+I have 3 Yrs experience of working in the area of web application development with a major focus on Backend Development. I have developed end-to-end web applications on scale. I started my career as an intern at a budding startup. I developed and deployed Mailmodo’s official website. I also contributed to the development of their email editor platform.<br></br>
+<br></br>
+Since the inception of my journey with web development, where I crafted my web application and skillfully maneuvered its code to achieve the precise outcomes, an unwavering fascination for employing programming to tackle genuine engineering challenges has taken hold of me. This fervor has consistently driven me to excel in the expansive realm of full stack development. As a testament to this pursuit, I've conceptualized and realized various applications within my personal projects. Noteworthy examples include a 'Web Chatting Application,' 'Video Calling Application reminiscent of Google Meet,' and a Micro Blogging Platform.<br></br><br></br>
+
+I am also passionate about contributing to open-source projects. I have won the CrossWoc'21 open-source challenge organized by IEEE DTU. I am enthusiastic about staying current with cutting-edge technologies and industry best practices. Continuously pursuing novel challenges is my forte. So far the journey has been great and I am looking forward to continuing the same.
 
           </Typography>
           <br />
@@ -80,7 +86,7 @@ So far I have had a journey full of learning, and I'm looking forward to learn a
                     size="large"
                     color="primary"
                     variant="outlined"
-                    style={{ marginLeft: "auto" }} href="https://drive.google.com/file/d/1EKGngG3t1J_hhHXAWogEYrSGWfw1mZMM/view?usp=sharing"
+                    style={{ marginLeft: "auto" }} href="https://drive.google.com/file/d/1CIVTN6nLq3GVugMeAm2KwChbeQAYs8_1/view"
                   >
                     View My Resume
                   </Button>
